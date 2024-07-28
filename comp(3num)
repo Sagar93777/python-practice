@@ -1,0 +1,10 @@
+first = int(input("Enter first number:"))
+second = int(input("Enter second number:"))
+third = int(input("Enter third number:"))
+
+if first > second and first > third:
+    print(str(first) + " is greatest")
+elif second > first and second > third:
+    print(str(second) + " is greatest")
+else:
+    print(str(third) + " is greatest")
