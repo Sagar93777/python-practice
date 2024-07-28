@@ -1,0 +1,6 @@
+import math
+base = float(input("Enter Base number: "))
+expo = float(input("Enter Expo Number: "))
+temp=pow(base,expo)
+
+print(temp)
